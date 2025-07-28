@@ -163,19 +163,51 @@ address {
     background: #404BBF;
 }
 
-.table {
-    list-style: none;
+
+
+/* Services */
+
+.s-services {
+    padding: 120px 0;
 }
+
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;
+}
+
 .services {
-    font-size: 36px;
-    font-weight: 700;
+    display: flex;
+    gap: 24px;
 }
+
+.services li {
+    margin-right: 24px;
+}
+
+.services li:last-child {
+    margin-right: 0;
+}
+
+.li-services {
+    width: calc((100% - 72px) / 4);
+}
+
 .services-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .services-p {
