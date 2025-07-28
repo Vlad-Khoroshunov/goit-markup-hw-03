@@ -30,11 +30,10 @@ address {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 auto;
-}
-
-.header-div {
     display: flex;
 }
+
+/* Header */
 
 .header {
     border-bottom: 1px solid #e7e9fc
@@ -96,6 +95,25 @@ address {
 .contacts:focus {
     color: #404bbf;
 }
+
+.address-info {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.menu:last-child {
+    margin-right: 0;
+}
+
+/* Solutions */
 
 .solutions {
     background-color: #2E2F42;
