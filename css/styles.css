@@ -26,6 +26,26 @@ address {
     font-style: normal;
 }
 
+.container { 
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header-div {
+    display: flex;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+}
+
 .logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -34,6 +54,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .studio {
@@ -94,7 +115,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #FFFFFF;
     background: #4D5AE5;
     cursor: pointer;
@@ -208,10 +229,3 @@ address {
     background-color: #2e2f42;
 }
 
-.container { 
-    max-width: 1440px;
-    margin-left: 156px;
-    margin-right: 156px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
