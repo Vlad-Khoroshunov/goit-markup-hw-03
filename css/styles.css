@@ -125,8 +125,9 @@ address {
 
 /* Solutions */
 
-.solutions {
+.s-solutions {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .title {
