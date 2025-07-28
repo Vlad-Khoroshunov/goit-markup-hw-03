@@ -29,7 +29,7 @@ address {
 .container { 
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 15px 0 15px;
     display: flex;
 }
 
@@ -71,6 +71,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .link_webstudio:hover {
@@ -98,6 +99,15 @@ address {
 
 .address-info {
     display: flex;
+    gap: 40px;
+}
+
+.address-info li {
+    margin-right: 40px;
+}
+
+.address-info li:last-child {
+    margin-right: 0;
 }
 
 .menu {
