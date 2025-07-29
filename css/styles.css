@@ -190,12 +190,16 @@ address {
     margin-right: 24px;
 }
 
+/* .services li:first-child {
+width: calc((100% - 3 * 24px) / 4);
+} */
+
 .services li:last-child {
     margin-right: 0;
 }
 
-.li-services {
-   flex-basis: calc((100% - 3 * 24px) / 4);
+.first-service {
+   flex-basis: calc((100% - 72px) / 4);
 }
 
 .services-title {
