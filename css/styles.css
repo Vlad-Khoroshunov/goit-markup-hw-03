@@ -186,9 +186,6 @@ address {
     gap: 24px;
 }
 
-/* .services li:first-child {
-    width: calc((100% - 3 * 24px) / 4);
-} */
 
 .li-services {
 width: calc((100% - 72px) / 4);
@@ -293,7 +290,7 @@ width: calc((100% - 72px) / 4);
     row-gap: 48px;
 }
 
-.li-portfolio:first-child {
+.li-portfolio {
   width: calc((100% - 48px) / 3);
 }
 
