@@ -291,7 +291,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .li-portfolio {
-    box-sizing: border-box;
+    
     width: calc((100% - 48px) / 3);
 }
 
