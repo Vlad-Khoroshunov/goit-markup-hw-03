@@ -189,8 +189,8 @@ address {
     margin-right: 0;
 }
 
-.li-services:first-child {
-   width: calc((100% - 3 * 24px) / 4);
+.li-services {
+   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .services-title {
