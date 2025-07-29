@@ -24,6 +24,8 @@ img {
 
 address {
     font-style: normal;
+    margin: 0 auto;
+    
 }
 
 .container { 
@@ -32,6 +34,8 @@ address {
     padding: 0 15px 0 15px;
     display: flex;
 }
+
+
 
 /* Header */
 
@@ -145,6 +149,7 @@ address {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-top: 48px;
 }
 
 .knopka:hover {
