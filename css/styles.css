@@ -115,14 +115,6 @@ address {
     gap: 40px;
 }
 
-.menu li {
-    margin-right: 40px;
-}
-
-.menu:last-child {
-    margin-right: 0;
-}
-
 /* Solutions */
 
 .s-solutions {
