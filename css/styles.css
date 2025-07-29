@@ -286,13 +286,23 @@ width: calc((100% - 72px) / 4);
 .ul-portfolio {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
     row-gap: 48px;
 }
 
+
 .li-portfolio {
-    
-    width: calc((100% - 48px) / 3);
+  margin-bottom: 48px;  
+  margin-right: 24px;
+  width: calc((100% - 48px) / 3);
+}
+
+.li-portfolio:nth-child(3n) {
+  margin-right: 0;
+
+}
+
+.li-portfolio:nth-last-child(-n+3) {
+  margin-bottom: 0;
 }
 
 .div-portfolio {
