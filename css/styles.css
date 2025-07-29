@@ -293,9 +293,6 @@ width: calc((100% - 72px) / 4);
     row-gap: 48px;
 }
 
-.li-portfolio {
-width: calc((100% - 48px) / 3);
-}
 
 .div-portfolio {
     padding: 32px 16px;
@@ -342,14 +339,7 @@ width: calc((100% - 48px) / 3);
 
 }
 
-.logo-f {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
