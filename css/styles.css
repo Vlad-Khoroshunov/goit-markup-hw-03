@@ -165,58 +165,50 @@ address {
 /* Services */
 
 .s-services {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .services {
-    display: flex;
-    gap: 24px;
-}
-
-.services li {
-    margin-right: 24px;
-}
-
-/* .services li:first-child {
-width: calc((100% - 3 * 24px) / 4);
-} */
-
-.services li:last-child {
-    margin-right: 0;
+  display: flex;
+  gap: 24px;
 }
 
 .first-service {
-   flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
+}
+
+.li-services {
+  /* ширина не задається! лише інші стилі */
 }
 
 .services-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-bottom: 8px;
 }
 
 .services-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Our Team */
