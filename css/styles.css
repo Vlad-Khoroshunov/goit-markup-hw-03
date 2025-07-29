@@ -186,11 +186,13 @@ address {
     gap: 24px;
 }
 
-.services li:first-child {
+/* .services li:first-child {
     width: calc((100% - 3 * 24px) / 4);
+} */
+
+.li-services {
+width: calc((100% - 72px) / 4);
 }
-
-
 
 .services li:last-child {
     margin-right: 0;
