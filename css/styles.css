@@ -293,6 +293,9 @@ width: calc((100% - 72px) / 4);
 .li-portfolio {
   margin-bottom: 48px;  
   margin-right: 24px;
+}
+
+.li-portfolio:first-child {
   width: calc((100% - 48px) / 3);
 }
 
