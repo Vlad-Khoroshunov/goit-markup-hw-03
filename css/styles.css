@@ -290,7 +290,7 @@ width: calc((100% - 72px) / 4);
     row-gap: 48px;
 }
 
-.ul-portfolio:first-child {
+.list-portfolio {
 width: calc((100% - 48px) / 3);
 }
 
