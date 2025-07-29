@@ -288,7 +288,7 @@ address {
     row-gap: 48px;
 }
 
-.li-portfolio {
+.ul-portfolio li:first-child {
      width: calc((100% - 48px) / 3);
 }
 
